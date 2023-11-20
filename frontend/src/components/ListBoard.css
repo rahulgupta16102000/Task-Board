@@ -1,0 +1,66 @@
+/* frontend/src/components/ListBoard.css */
+
+input{
+    border: none;
+    border-bottom: 1px solid;
+    overflow: hidden;
+    outline: none;
+}
+
+.ListBoard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .ListForm {
+    width: 300px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-right: 16px;
+  }
+  .alllists{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .ListForm h2 {
+    margin-bottom: 16px;
+  }
+  
+  .ListForm label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .ListForm input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+  }
+  
+  .ListForm button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .ListForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  .AllLists {
+    flex-grow: 1;
+  }
+  
+  .AllLists h2 {
+    margin-bottom: 16px;
+  }
+  
